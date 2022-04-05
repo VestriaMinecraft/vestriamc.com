@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('background.png');  
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+</style>
+</head>
+<body>
+
+<!-- Top navigation -->
+<div class="topnav">
+
+  <!-- Centered link -->
+  <div class="topnav-centered">
+    
+  </div>
+  
+  <!-- Left-aligned links (default) -->
+  <a href="https://vestria.wiki" target="_blank">Wiki</a>
+  <a href="https://discord.gg/s9d3W9ujUA" target="_blank">Discord</a>
+  <a href="https://store.vestriamc.com/" target="_blank">Donation Store</a>
+  
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="https://forms.gle/eiCVnLAmKdbWqceeA" target="_blank">Staff Application</a>
+  </div>
+  
+</div>
+
+</style>
+</head>
+<body>
+<div>
+	<h1> Welcome to Vestria Minecraft! </h1>
+	<h2> Join at play.vestriamc.com </h2>
+</div>
+
+<div>
+<img src="vestria_logo.png" alt="Vestria Minecraft Server Logo" class="center" style="width:25%">
+</div>
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../js/jquery/jquery.js"></script>
+</head>
+<body class="h-full">
+
+
+<div class="w-full h-full  px-6 pb-12 antialiased  ">
+    <div class="mx-auto max-w-7xl h-full">
+
+        <nav class="relative z-50 h-24 select-none">
+            <div class="container relative flex flex-wrap items-center justify-between h-full  overflow-hidden font-medium md:overflow-visible lg:justify-center sm:px-4 md:px-2">
+                <div class="flex items-center justify-start w-1/4 h-full pr-4">
+
+                </div>
+                <div class="top-0 left-0 items-start hidden w-full h-full p-4 text-xl bg-gray-900 bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-transparent md:p-0 md:relative md:flex">
+                    <div class="flex-col w-full h-full overflow-hidden bg-white rounded-lg md:bg-transparent md:overflow-visible md:rounded-none md:relative md:flex md:flex-row">
+                        <a href="#_"
+                           class="inline-flex items-center block w-auto h-16 px-6 text-2xl font-black leading-none text-gray-900 md:hidden">Vestria<span
+                                class="text-indigo-600">.</span></a>
+                        <div class="flex flex-col items-start justify-center w-full space-x-6 text-center text-xl lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
+                            <a href="https://vestria.wiki/"
+                               class="inline-block w-full py-2 mx-0 ml-6 font-medium text-left text-xl text-white md:ml-0 md:w-auto hover:text-orange-300 md:px-0 md:mx-2 lg:mx-3 md:text-center">Wiki</a>
+
+                            <a href="https://store.vestriamc.com/"
+                               class="inline-block w-full py-2 mx-0 font-medium text-left text-xl text-white md:w-auto md:px-0 md:mx-2 hover:text-orange-300 lg:mx-3 md:text-center">Shop</a>
+
+                            <a href="https://discord.com/invite/s9d3W9ujUA"
+                               class="inline-block w-full py-2 mx-0 font-medium text-left text-xl text-white md:w-auto md:px-0 md:mx-2 hover:text-orange-300 lg:mx-3 md:text-center">Discord</a>
+
+                            <a href="https://forms.gle/WhNeR8yyTeNSUJHLA"
+                               class="inline-block w-full py-2 mx-0 font-medium text-left text-xl text-white md:w-auto md:px-0 md:mx-2 hover:text-orange-300 lg:mx-3 md:text-center">Ban Appeals</a>
+
+                            <a href="https://forms.gle/mUmbjkL3onw316Gs5"
+                               class="inline-block w-full py-2 mx-0 font-medium text-left text-xl text-white md:w-auto md:px-0 md:mx-2 hover:text-orange-300 lg:mx-3 md:text-center">Staff Application</a>
+
+
+                        </div>
+                        <!-- <div class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
+                             <a href="#_"
+                                class="inline-flex items-center w-full px-6 py-3 text-sm font-medium leading-4 text-white bg-yellow-600 md:px-3 md:w-auto md:rounded-full lg:px-5 hover:bg-orange-400 focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-indigo-600">Work
+                                 for us</a>
+                         </div>-->
+                    </div>
+                </div>
+                <div class="absolute right-0 flex flex-col items-center items-end justify-center w-10 h-10 bg-white rounded-full cursor-pointer md:hidden hover:bg-gray-100">
+                    <svg class="w-6 h-6 text-gray-700" fill="none" stroke-linecap="round"
+                         stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor"
+                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="container max-w-lg px-4 py-32  text-left md:max-w-none md:text-center">
+            <div class="absolute top-0 -z-10 right-1/2">
+                <img src="../content/img.png">
+            </div>
+            <h1 class=" pb-12 font-extrabold leading-10 tracking-tight text-left text-white md:text-center sm:leading-none md:text-6xl lg:text-9xl ">
+                <span
+                        class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-t from-orange-600 to-orange-400 md:inline-block">Vestria</span>
+            </h1>
+            <h1 class=" font-extrabold leading-10 tracking-tight text-left text-white md:text-center sm:leading-none md:text-6xl lg:text-6xl ">
+                <span class="inline md:block ">Start Crafting Your</span> <span
+                    class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-t from-orange-600 to-orange-400 md:inline-block">Next Great Idea</span>
+            </h1>
+
+            <div class="flex flex-col items-center mt-12  text-center" onclick="copytoClipboard()">
+                <span class="relative inline-flex w-full md:w-auto">
+                    <a href="#_" type="button"
+                       class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-yellow-600 border border-transparent rounded-full md:w-auto hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-600">
+                        Play Now !
+                    </a>
+                </span>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="snackbar">IP Copied! <br>
+    <span>Enjoy playing Vestria</span>
+</div>
+</body>
+</html>
